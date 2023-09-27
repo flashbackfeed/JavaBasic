@@ -41,6 +41,7 @@ public class ArraysApplication {
         System.out.println(Arrays.toString(chArr)); // 결과 출력
 
 //    TODO : 5) 이진 탐색(검색, 조회) : 리턴값 : 인덱스번호
+//         사용시 : 미리 정렬 되어야 함 - > 이진 탐색
         System.out.println("B의 인덱스번호 : " + Arrays.binarySearch(chArr,'B'));
     }
 
